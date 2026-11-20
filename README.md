@@ -1,5 +1,7 @@
 # Flight Pass
 
+> By [An Nayal](https://annayal.com) · used at [Agniverse](https://agniverse.co) · more free tools at [annayal.com/open-source](https://annayal.com/open-source)
+
 A contact swap for events that people want to finish. A guest scans your QR code, types their name and email, and rides a rocket from Earth past the Moon, round the Sun and down onto Mars. They land on a boarding pass with your links and your contact card, and you get their details.
 
 **Overview, setup walkthrough and the free setup playbook:** [agniverse.co/open-source/flight-pass](https://agniverse.co/open-source/flight-pass)
@@ -21,7 +23,7 @@ We built this for our own conference trips at [Agniverse](https://agniverse.co).
 ## Quick start
 
 ```bash
-git clone https://github.com/Git-Agni/flight-pass.git
+git clone https://github.com/annayal-consumerxai/flight-pass.git
 cd flight-pass
 npm install
 npm run dev
