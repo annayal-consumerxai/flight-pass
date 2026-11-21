@@ -1,6 +1,6 @@
 # Flight Pass
 
-> By [An Nayal](https://annayal.com) · used at [Agniverse](https://agniverse.co) · more free tools at [annayal.com/open-source](https://annayal.com/open-source)
+> Built at [Agniverse](https://agniverse.co), by [An Nayal](https://annayal.com) · more free tools at [annayal.com/open-source](https://annayal.com/open-source)
 
 A contact swap for events that people want to finish. A guest scans your QR code, types their name and email, and rides a rocket from Earth past the Moon, round the Sun and down onto Mars. They land on a boarding pass with your links and your contact card, and you get their details.
 
