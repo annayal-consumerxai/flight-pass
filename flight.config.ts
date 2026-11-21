@@ -71,7 +71,6 @@ const config: FlightConfig = {
   // customVehicle: { model: "/flight/my-model.glb", uprightRoll: 90, padImage: "/flight/my-model.png" },
 
   journeyMs: 10000,
-  credit: true,
 };
 
 export default config;

@@ -110,13 +110,15 @@ It is a plain Next.js 15 app with no database required, so any Node host works. 
 
 ## Credits
 
-- Gold gorilla: "Gorilla" by [Digga79](https://www.thingiverse.com/thing:4733596), CC BY 4.0, simplified to 24k triangles. Keep the credit line on the pass if you fly it (it shows automatically).
+- Gold gorilla: "Gorilla" by [Digga79](https://www.thingiverse.com/thing:4733596), CC BY 4.0, simplified to 24k triangles. Keep the gorilla credit on the pass if you fly it (it shows automatically).
 - Horse: from the [three.js examples](https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf), MIT.
 - Planet and rocket images: made for Agniverse, released here under MIT with the code.
 - Fonts: Anton, IBM Plex Mono and Inter from Google Fonts.
 
-The "made with flight-pass by Agniverse" line under the pass is on by default. Turn it off with `credit: false`. We'd love to see what you fly, so tag [@consumerxai](https://x.com/consumerxai) if you ship one.
+The "Built at Agniverse, by An Nayal" line on the boarding screen and under the pass is part of the template. We'd love to see what you fly, so tag [@consumerxai](https://x.com/consumerxai) if you ship one.
 
 ## License
 
 MIT. See [LICENSE](LICENSE). Third-party model credits are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Built at [Agniverse](https://agniverse.co), by [An Nayal](https://annayal.com)
