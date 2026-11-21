@@ -109,6 +109,4 @@ export interface FlightConfig {
   customVehicle?: CustomVehicle;
   // Length of the WebGL flight in ms.
   journeyMs: number;
-  // The small "made with flight-pass by Agniverse" line under the pass.
-  credit: boolean;
 }

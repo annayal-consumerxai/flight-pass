@@ -5,6 +5,7 @@ import type { FlightEvent, FlightHost, FlightLink } from "../lib/types";
 import { config, flightStrip, contactFirstName, passDate, firstName, initials } from "../lib/flight";
 import { encodePass } from "../lib/pass-token";
 import { flightTrack } from "../lib/analytics";
+import BuiltBy from "./BuiltBy";
 
 const PASS = config.pass;
 
@@ -661,6 +662,7 @@ export default function FlightExperience({
           <div className="hatch">just want the contact card?{" "}
             <a href={vcf} download data-vcf>save {contactName}&apos;s contact</a>
           </div>
+          <BuiltBy />
         </section>
       )}
 
@@ -716,9 +718,7 @@ export default function FlightExperience({
           // the gorilla model is CC BY 4.0, which asks for a credit
           <div className="credit">gold gorilla from a model by <a href="https://www.thingiverse.com/thing:4733596" target="_blank" rel="noopener noreferrer">Digga79</a>, CC BY 4.0</div>
         )}
-        {config.credit && (
-          <div className="credit">made with <a href="https://github.com/Git-Agni/flight-pass" target="_blank" rel="noopener noreferrer">flight-pass</a> by <a href="https://agniverse.co" target="_blank" rel="noopener noreferrer">Agniverse</a></div>
-        )}
+        <BuiltBy />
 
       </section>
     </div>
